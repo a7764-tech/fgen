@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lambang, Motto, Dan Maskot</title>
+    <style>
+        .border{
+           background-color: #031f42; 
+           color: white;
+           border: 1px solid #ffff;
+           padding: 10px 12px;
+           padding-left: 250px;
+           margin: 0px;
+           width: 1658px;
+        }
+        .container{
+        position: relative;
+        width: 1000px;
+        }
+
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family: arial;
+            transform: translate(-50%,-50%);
+            width: 700px;
+            font-size: x-large;
+            color: white;
+        }
+        .text p{
+            color: lightblue;
+        }
+        .btn{
+            background-color: rgb(164, 206, 244);
+            position: absolute;
+            bottom: 20%;
+            left: 30%;
+            transform: translate(-50%);
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu{
+            background-color: #031f42;
+            color: #ffffff;
+            border: 2px solid black;
+            margin: 0px; 
+            padding: 10px;
+            width: 1900px;
+        }
+        .opsi li{
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 20px;
+            padding: 10px 15px;
+        }
+        .search{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .opsi1{
+            display: flex;
+            list-style: none;
+        }
+        .drop{
+            position: relative;
+            cursor: pointer;
+        }
+        .submn{
+            display: none;
+            position: absolute;
+            top: 70%;
+            left: 0%;
+            list-style: none;
+            background:#031f42 ;
+            color: #ffffff;
+            padding: 10px;
+            z-index: 10;
+            width: 350px;
+            margin: 10;
+        }
+        .submn a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .submn a:hover{
+            color: lightgrey;
+        }
+        .drop:hover .submn{
+            display: block;
+        }
+        .head{
+            font-family: sans-serif;
+            text-align:left;
+            margin-left: 300px;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+        .img{
+            width: 10%;
+        }
+
+        .p{
+            font-family: sans-serif;
+            font-size:large;
+            font-weight: normal;
+            margin-left: 300px;
+            margin-right: 300px;
+            text-align: left;
+        }
+        .hr{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            max-width: 1400px;
+        }
+
+        .foot{
+            background-color: #031f42;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;   
+        }
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="border" >
+        <table>
+            <tr>
+                <td>
+                    <img src="phone.png" alt="">
+                    <td>0353 881046</td>
+                    <td>|</td>
+                    <td>
+                        <img src="mail.png">
+                    </td>
+                    <td>     admin@ikippgribojonegoro.ac.id </td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="menu">
+        <ul class="opsi">
+        <ul class="opsi1">
+        <li><a href="WEB.HTML" target="_self">
+            <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/x01-Icon-light.png.pagespeed.ic.1KqtF6CosT.png" class="">
+        </a></li>
+        <li>
+            <input type="search" placeholder="search...">
+        </li>
+        <li class="drop">profil
+            <ul class="submn">
+                <li><a href="profs.html">profil singkat</a></li>
+                <li><a href="sambutan.html">sambutan rektor</a></li>
+                <li><a href="lambang-motto-dll.html">Lambang, Motto Dan Maskot</a></li>
+                <li><a href="pimpinan.html">pimpinan perguruan tinggi</a></li>
+
+            </ul>
+        </li>
+        <li class="drop">Akademik
+            <ul class="submn">
+                <li><A href="seleksi.html">Seleksi Masuk</A></li>
+                <li><a href="beasiswa.html">Beasiswa</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Pedoman-Akademik-2023-2024.pdf">Pedoman Akademik</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Kalender-Kerja-Tahun-2025.pdf">Kalender Kerja</a></li>
+            </ul>
+        </li>
+
+        <li class="drop"> Fakultas
+            <ul class="submn">
+                <li><a href="pendidikan-bahasa.html">Fakultas Pendidikan Bahsa Dan Seni</a></li>
+                <li><a href="PIPS.html">Fakultas Pendidikan Ilmu Pengetahuan Sosisal</a></li>
+                <li><a href="pmtk&ipa.html">Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</a></li>
+            </ul>
+        </li>
+                  
+        <li><a href="daftar.html">Daftar</a></li>
+
+        <li class="drop">Tautan
+            <ul class="submn">
+                <li><a href="">Lembaga</a></li>
+                <li><a href="">SIM</a></li>
+            </ul>
+        </li>
+
+        <li class="drop">News
+            <ul class="submn">
+                <li><a href="">Berita</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Pengumuman</a></li>
+            </ul>
+        </li>
+          
+        <li>download</li>
+        </ul>
+    </ul>
+    </div>
+
+        <div class="container">
+<img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Banner-WEB-IKIP.png">
+<div class="text">
+<h1>Lambang, Motto, Dan Maskot</h1>
+<p>IKIP PGRI Bojonegoro - Lambang, Motto, Dan Maskot</p> 
+</div>
+</div>
+
+<h2 class="head">Lambang</h2>
+    <center>
+        <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/elementor/thumbs/Logo-Baru-IKIP-PGR-Bojonegoro--r6cx1vow3tuawss862boa6k5hgnvimp5p5ybprt3ag.png" class="img">
+        </center>
+    <p>
+    <ol>    
+        <li class="p">Bentuk Lingkaran atau Perisai melambangkan kebersamaan, perlindungan, kesatuan dan keberlanjutan atau pendidikan yang terus berkembang tanpa akhir;</li>
+        <li class="p">Obor melambangkan semangat, penerangan, dan perjuangan mencerdaskan kehidupan masyarakat & bangsa;</li>
+        <li class="p">Nama institusi, “IKIP PGRI Bojonegoro,” untuk memberikan identitas resmi lembaga;</li>
+        <li class="p">Simbol PGRI (Persatuan Guru Republik Indonesia) melambangkan dedikasi dan perjuangan PGRI dalam mencetak guru profesional;</li>
+        <li class="p">Warna merah pada obor melambangkan keberanian, semangat, dan kekuatan.</li>
+        <li class="p">Warna dasar putih melambangkan kesucian, ketulusan, dan kejujuran dalam mendidik;</li>
+        <li class="p">Warna hijau memiliki makna nilai dasar IKIP PGRI Bojonegoro yang tumbuh sehat dan berkelanjutan.</li>
+    </ol>
+</p>
+<hr class="hr">
+<h2 class="head">Motto</h2>
+<center>
+    <p class="p">
+        <em>" Harmony In Education "</em>
+    </p>
+</center>
+<p class="p">Motto IKIP PGRI Bojonegoro “Harmony in Education” menekankan pentingnya keselarasan dan keseimbangan dalam seluruh aspek pendidikan tinggi, khususnya dalam interaksi antara dosen, mahasiswa, orang tua, dan lingkungan kampus. Harmoni ini sejalan dengan pengembangan nilai smart, innovative, academic, dan professional, di mana mahasiswa didorong untuk cerdas dalam berpikir kritis dan analitis (smart), kreatif dalam mencari solusi baru (innovative), unggul dalam pencapaian keilmuan (academic), serta menjunjung tinggi etika dan tanggung jawab dalam setiap tindakan (professional). Dengan membangun hubungan yang inklusif, kolaboratif, dan saling menghargai, harmoni dalam pendidikan menciptakan fondasi yang kuat bagi terbentuknya generasi intelektual yang tidak hanya berprestasi secara akademis, tetapi juga berkarakter dan siap menghadapi tantangan global secara profesional.</p>
+</p>
+<hr class="hr">
+<h2 class="head">Maskot</h2>
+<center>
+    <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/elementor/thumbs/jpg-Maskot-1-X-1-r6cx1ur1wzt0l6tlbjx1posow2siaxlfd1au8huhgo.jpg" class="img"
+</center>
+<p>
+    <ol>
+        <li class="p">Logo IKIP PGRI Bojonegoro di Jas Almamater “Identitas Lembaga”</li>
+        <li class="p">Telinga “Pendengaran yang tajam, dan peka, serta mampu merespon dengan baik”.</li>
+        <li class="p">Simbol PGRI “Lambang PGRI mencerminkan nilai-nilai Pendidikan Pembelajaran, Pertumbuhan, dan peran penting para guru dalam membentuk generasi mendatang”.</li>
+        <li class="p">Tiga Lapis Bandana “Melambangkan kesigapan, kesiapan dan keberanian dalam berjuang. Tiga lapis Bandana sebagai simbol Tri Dharma Perguruan Tinggi yaitu Pendidikan dan Pengajaran, Penelitian dan Pengembangan, Pengabdian kepada Masyarakat”.</li>
+        <li class="p">Samir dengan Gordon Segilima “Samir identik dengan Keagungan dan Gordon bentuk segi lima Mengacu pada nilai-nilai Pancasila.”</li>
+    </ol>
+</p>
+<hr class="hr">
+</body>
+
+<footer class="foot">
+    <p>© Copyright IKIP PGRI Bojonegoro 2025.</p>
+</footer>
+</html>

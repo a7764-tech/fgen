@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profil Singkat - IKIP PGRI Bojonegoro</title>
+    <style>
+.border{
+           background-color: #031f42; 
+           color: white;
+           border: 1px solid #ffff;
+           padding: 10px 12px;
+           padding-left: 250px;
+           margin: 0px;
+           width: 1658px;
+        }
+        .container{
+        position: relative;
+        width: 1000px;
+        }
+
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family: arial;
+            transform: translate(-50%,-50%);
+            width: 700px;
+            font-size: x-large;
+            color: white;
+        }
+        .text p{
+            color: lightblue;
+        }
+        .btn{
+            background-color: rgb(164, 206, 244);
+            position: absolute;
+            bottom: 20%;
+            left: 30%;
+            transform: translate(-50%);
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu{
+            background-color: #031f42;
+            color: #ffffff;
+            border: 2px solid black;
+            margin: 0px; 
+            padding: 10px;
+            width: 1900px;
+        }
+        .opsi li{
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 20px;
+            padding: 10px 15px;
+        }
+        .search{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .opsi1{
+            display: flex;
+            list-style: none;
+        }
+        .drop{
+            position: relative;
+            cursor: pointer;
+        }
+        .submn{
+            display: none;
+            position: absolute;
+            top: 70%;
+            left: 0%;
+            list-style: none;
+            background:#031f42 ;
+            color: #ffffff;
+            padding: 10px;
+            z-index: 10;
+            width: 350px;
+            margin: 10;
+        }
+        .submn a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .submn a:hover{
+            color: lightgrey;
+        }
+        .drop:hover .submn{
+            display: block;
+        }
+
+        .kontainer{
+            display: flex;
+            gap: 20 px;
+            align-items: center;
+        }
+
+        .text1{
+            width: 50%;
+        }
+
+        .video{
+            width: 50%;
+        }
+
+        .btn1{
+            background-color: rgb(164, 206, 244);
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            justify-content: center;
+            }
+
+        .btn-box{
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            gap: 30px;
+            left: 40px;
+        }
+
+
+        .video-container{
+            position: relative;
+            width: 500px;
+        }
+        .thumbnail{
+        width: 800px;
+         }
+
+            .play{
+            position: absolute;
+            top: 50%;
+            left: 75%;
+            transform: translate(-50%,-50%);
+            width: 80px;
+        }
+
+        .teksk{
+            display: grid;  
+            gap: 40px; 
+            grid-template-columns:repeat( 2, 1fr); 
+            background-color: #e8e8e8;
+            
+        }
+
+        .teks{
+            width: 50%;
+        }
+        a{
+            color: #ffff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .foot{
+            background-color: #031f42;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;  
+        }
+
+        .tt{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="border" >
+        <table>
+            <tr>
+                <td>
+                    <img src="phone.png" alt="">
+                    <td>0353 881046</td>
+                    <td>|</td>
+                    <td>
+                        <img src="mail.png">
+                    </td>
+                    <td>     admin@ikippgribojonegoro.ac.id </td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="menu">
+        <ul class="opsi">
+        <ul class="opsi1">
+        <li><a href="WEB.HTML" target="_self">
+            <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/x01-Icon-light.png.pagespeed.ic.1KqtF6CosT.png" class="">
+        </a></li>
+        <li>
+            <input type="search" placeholder="search...">
+        </li>
+        <li class="drop">Profil
+            <ul class="submn">
+                <li><a href="profs.html">profil singkat</a></li>
+                <li><a href="sambutan.html">sambutan rektor</a></li>
+                <li><a href="lambang-motto-dll.html">Lambang, Motto Dan Maskot</a></li>
+                <li><a href="pimpinan.html">pimpinan perguruan tinggi</a></li>
+
+            </ul>
+        </li>
+        <li class="drop">Akademik
+            <ul class="submn">
+                <li><A href="seleksi.html">Seleksi Masuk</A></li>
+                <li><a href="beasiswa.html">Beasiswa</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Pedoman-Akademik-2023-2024.pdf">Pedoman Akademik</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Kalender-Kerja-Tahun-2025.pdf">Kalender Kerja</a></li>
+            </ul>
+        </li>
+
+        <li class="drop"> Fakultas
+            <ul class="submn">
+                <li><a href="pendidikan-bahasa.html">Fakultas Pendidikan Bahsa Dan Seni</a></li>
+                <li><a href="PIPS.html">Fakultas Pendidikan Ilmu Pengetahuan Sosisal</a></li>
+                <li><a href="pmtk&ipa.html">Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</a></li>
+            </ul>
+        </li>
+                  
+        <li><a href="daftar.html">Daftar</a></li>
+
+        <li class="drop">Tautan
+            <ul class="submn">
+                <li><a href="">Lembaga</a></li>
+                <li><a href="">SIM</a></li>
+            </ul>
+        </li>
+
+        <li class="drop">News
+            <ul class="submn">
+                <li><a href="">Berita</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Pengumuman</a></li>
+            </ul>
+        </li>
+          
+        <li>download</li>
+        </ul>
+    </ul>
+    </div>
+
+
+
+<div class="container">
+<img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Banner-WEB-IKIP.png">
+<div class="text">
+<h1>Profil Singkat</h1>
+<p>IKIP PGRI Bojonegoro - Profil Singkat</p> 
+    </div>
+</div>
+
+
+<div class="kontainer">
+    <div class="text1">
+        <h1>Tentang IKIP PGRI Bojonegoro</h1>
+        <h3>Kampus Pendidikan Pertama Di Bojonegoro</h3>
+        <p>IKIP PGRI Bojonegoro merupakan pelopor kampus pendidikan pertama di Bojonegoro <br>yang didirakan pada tanggal 23 Mei 1986, membawa motto Harmony In  Education merujuk <br>pada kerja sama yang baik antara semua elemen dalam sistem pendidikan untuk menciptakan <br>lingkungan belajar yang damai, inklusif, dan produktif</p>
+
+    </div>
+    <div class="video-container">
+            <IMG src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Profil-Website-Bu-Jun.jpg" class="thumbnail">
+                <a href="https://youtu.be/I5G56f96xoY?si=cPkLJbDrmO4g7nDl" target="_blank">
+                    <img src="play-removebg-preview.png" class="play">
+                </a>
+        </div>
+
+
+</div>
+
+<div class="kontainer">
+    <div class="btn-box">
+<button class="btn1"><a href="lambang-motto-dll.html" class="tt">Lambang</a></button>
+<button class="btn1"><a href="pimpinan.html" class="tt">Pimpinan</a></button>
+<button class="btn1">Struktur Organisasi</button>
+<button class="btn1"><a href="sambutan.html" class="tt">Sambutan Rektor</a></button>
+<button class="btn1">Peta</button>
+<button class="btn1">Akreditasi</button>
+</div>
+    </div>
+</div>
+
+<div class="teksk">
+    <div class="teks">
+        <h2>Visi</h2>
+        <p>Menjadi Perguruan Tinggi yang Berdaya Saing dan Rujukan Inovasi dalam Bidang Pendidikan pada Tahun 2043</p>
+    </div>
+    <div class="teks">
+        <h2>Misi</h2>
+        <ol>
+            <li>Menyelenggarakan Pendidikan dan Pengajaran untuk menghasilkan lulusan yang berkualitas, professional, dan berdaya saing.</li>
+            <li>Mengembangkan inovasi dan kreativitas melalui kegiatan pengajaran, penelitian, dan pengabdian kepada masyarakat.</li>
+            <li>Menyelenggarakan tata kelola yang otonom, akuntabel, dan transparan untuk meningkatkan kualitas berkelanjutan.</li>
+            <li>Menjalin kerja sama dengan Institusi dalam dan luar negeri dalam pengembangan kompetensi serta inovasi pembelajaran.</li>
+        </ol>
+    </div>
+
+    <div class="teks">
+        <h2>Tujuan</h2>
+        <ol>
+            <li>Terselenggaranya pendidikan dan pengajaran yang menekankan kepada peningkatan suasana akademik secara berkelanjutan untuk menghasilkan lulusan yang berkualitas dan profesional.</li>
+            <li>Terselenggaranya kegiatan pengajaran, penelitian, dan pengabdian kepada masyarakat yang menekankan pada inovasi dan kreativitas dalam rangka peningkatan penguasaan IPTEKS.</li>
+            <li>Terwujudnya kinerja Perguruan Tinggi yang otonom, akuntabel, dan transparan untuk meningkatkan kualitas berkelanjutan.</li>
+            <li>Terselenggaranya kerjasama dengan institusi dalam negeri dan luar negeri yang berkelanjutan dalam rangka peningkatan kompetensi dosen, mahasiswa, dan tendik.</li>
+        </ol>
+    </div>
+
+    <div class="teks">
+        <h2>strategi</h2>
+        <ol>
+            <li>Memfokuskan kualitas pembelajaran dengan metode yang bervariasi, berbasis multimedia dan Information Communication Technology (ICT) serta materi yang disusun oleh kelompok dosen sesuai bidang keahlian.</li>
+            <li>Memfokuskan penelitian dan pengabdian dosen selaras dengan roadmap penelitian dan PKM LPPM serta kepakaran dosen.</li>
+            <li>Revitalisasi kerja sama baik dalam negeri selaras dengan roadmap kerja sama serta memperkuat kegiatan, pelaporan, dan luaran.</li>
+        </ol>
+    </div>
+    
+</div>
+</body>
+<footer class="foot">
+    <p>© Copyright IKIP PGRI Bojonegoro 2025.</p>
+</footer>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</title>
+    <style>
+        .border{
+           background-color: #031f42; 
+           color: white;
+           border: 1px solid #ffff;
+           padding: 10px 12px;
+           padding-left: 250px;
+           margin: 0px;
+           width: 1658px;
+        }
+        .container{
+        position: relative;
+        width: 1000px;
+        }
+
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family: arial;
+            transform: translate(-50%,-50%);
+            width: 900px;
+            font-size: x-large;
+            color: white;
+        }
+        .text p{
+            color: lightblue;
+        }
+        .btn{
+            background-color: rgb(164, 206, 244);
+            position: absolute;
+            bottom: 20%;
+            left: 30%;
+            transform: translate(-50%);
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu{
+            background-color: #031f42;
+            color: #ffffff;
+            border: 2px solid black;
+            margin: 0px; 
+            padding: 10px;
+            width: 1900px;
+        }
+        .opsi li{
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 20px;
+            padding: 10px 15px;
+        }
+        .search{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .opsi1{
+            display: flex;
+            list-style: none;
+        }
+        .drop{
+            position: relative;
+            cursor: pointer;
+        }
+        .submn{
+            display: none;
+            position: absolute;
+            top: 70%;
+            left: 0%;
+            list-style: none;
+            background:#031f42 ;
+            color: #ffffff;
+            padding: 10px;
+            z-index: 10;
+            width: 350px;
+            margin: 10;
+        }
+        .submn a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .submn a:hover{
+            color: lightgrey;
+        }
+        .drop:hover .submn{
+            display: block;
+        }
+
+        .grub{
+            display: flex;
+            gap: 50px;
+            max-width: 1500px;
+            margin: auto;
+        }
+
+        .kiri{
+            width: 50%;
+            text-align: justify;
+            margin-right: 60px;
+        }
+        .kanan{
+            width: 50%;
+            margin-left: 60px;
+        }
+        .kanan img{
+            width: 100%;
+        }
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .table{
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid black;
+            margin-bottom: 40px;
+            font-family: sans-serif;
+            font-size: large;
+        }
+
+        .top{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .bott{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        
+        .fot img{
+            width: 270px;
+            height: 360px;
+            border-radius:0%;
+            object-fit: cover;
+        }
+
+        .fot{
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .bg{
+            background-color: rgb(255, 247, 247);
+        }
+        .font{
+            color: black;
+        }
+        .font:hover{    
+            color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="border" >
+        <table>
+            <tr>
+                <td>
+                    <img src="phone.png" alt="">
+                    <td>0353 881046</td>
+                    <td>|</td>
+                    <td>
+                        <img src="mail.png">
+                    </td>
+                    <td>     admin@ikippgribojonegoro.ac.id </td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="menu">
+        <ul class="opsi">
+        <ul class="opsi1">
+        <li><a href="WEB.HTML" target="_self">
+            <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/x01-Icon-light.png.pagespeed.ic.1KqtF6CosT.png" class="">
+        </a></li>
+        <li>
+            <input type="search" placeholder="search...">
+        </li>
+        <li class="drop">profil
+            <ul class="submn">
+                <li><a href="profs.html">profil singkat</a></li>
+                <li><a href="sambutan.html">sambutan rektor</a></li>
+                <li><a href="lambang-motto-dll.html">Lambang, Motto Dan Maskot</a></li>
+                <li><a href="pimpinan.html">pimpinan perguruan tinggi</a></li>
+
+            </ul>
+        </li>
+        <li class="drop">Akademik
+            <ul class="submn">
+                <li><A href="seleksi.html">Seleksi Masuk</A></li>
+                <li><a href="beasiswa.html">Beasiswa</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Pedoman-Akademik-2023-2024.pdf">Pedoman Akademik</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Kalender-Kerja-Tahun-2025.pdf">Kalender Kerja</a></li>
+            </ul>
+        </li>
+
+        <li class="drop"> Fakultas
+            <ul class="submn">
+                <li><a href="pendidikan-bahasa.html">Fakultas Pendidikan Bahsa Dan Seni</a></li>
+                <li><a href="PIPS.html">Fakultas Pendidikan Ilmu Pengetahuan Sosisal</a></li>
+                <li><a href="pmtk&ipa.html">Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</a></li>
+            </ul>
+        </li>
+                  
+        <li><a href="daftar.html">Daftar</a></li>
+
+        <li class="drop">Tautan
+            <ul class="submn">
+                <li><a href="">Lembaga</a></li>
+                <li><a href="">SIM</a></li>
+            </ul>
+        </li>
+
+        <li class="drop">News
+            <ul class="submn">
+                <li><a href="">Berita</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Pengumuman</a></li>
+            </ul>
+        </li>
+          
+        <li>download</li>
+        </ul>
+    </ul>
+    </div>
+
+        <div class="container">
+<img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Banner-WEB-IKIP.png">
+<div class="text">
+<h1>Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</h1>
+<p>IKIP PGRI Bojonegoro - Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</p> 
+</div>
+</div>
+
+<div class="bg">
+<div class="grub">
+    <div class="kiri">
+        <h1>Visi, Misi, & Tujuan</h1>
+        <hr>
+    <table class="table">
+        <tr>
+            <td>Visi.
+                <hr>
+                <p>Menjadi Fakultas yang Memiliki Daya Saing dan Pusat Pengembangan Inovasi di bidang Pendidikan Matematika dan Teknologi Informasi.</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>Misi
+                <ol>
+                    <li>Menyelenggarakan pendidikan dan pengajaran secara efektif yang berorientasi life skills untuk menghasilkan lulusan yang berdaya saing.</li>
+                    <li>Melaksanakan sistem pendidikan dan pembelajaran berbasis teknologi.</li>
+                    <li>Melaksanakan upaya perbaikan berkelanjutan dan menciptakan lingkungan akademik yang produktif yang bercirikan keterbukaan, kebersamaan, dan kesempatan pengembangan diri.</li>
+                    <li>Melaksanakan penelitian yang mendukung inovasi pendidikan dan peningkatan proses pembelajaran.</li>
+                    <li>Melaksanakan pengabdian masyarakat sebagai diseminasi hasil penelitian menuju pemberdayaan masyarakat melalui penerapan dan penyebarluasan ilmu pengetahuan dan teknologi yang berkelanjutan.</li>
+                    <li>Revitalisasi kerjasama dengan lembaga lain yang dapat membantu tercapainya visi Fakultas.</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>Tujuan
+                <ol>
+                    <li>Terselenggaranya pelaksanaan pendidikan dan pengajaran pada prodi Pendidikan Matematika dan Pendidikan Teknologi Informasi yang menekankan kepada peningkatan suasana akademik secara berkelanjutan untuk menghasilkan lulusan yang berkualitas, professional dan berdaya saing.</li>
+                    <li>Terselenggaranya kegiatan penelitian dan pengabdian masyarakat di prodi Pendidikan Matematika dan Pendidikan Teknologi Informasi sebagai diseminasi hasil penelitian menuju pemberdayaan masyarakat melalui penerapan dan penyebarluasan ilmu pengetahuan dan teknologi.</li>
+                    <li>Terselenggaranya kerjasama yang sinergis dan berkelanjutan dengan lembaga baik di dalam dan luar negeri untuk pengembangan UPPS dan kompetensi lulusan</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>Struktur Organisasi
+                <p><a href="Struktur_pmtk.html" class="font">Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam IKIP PGRI Bojonegoro</a></p>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="kanan">
+        <h1>Stuktur Organisasi</h1>
+        <hr>
+        <div class="top">
+            <div class="fot">
+                <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Dr.-Puput-Suriyah-M.Pd_-768x960.jpg">
+                <h3>Dr. Puput Suriyah, M.Pd.</h3>
+                <p>Dekan Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</p>
+            </div>
+        </div>
+
+        <div class="bott">
+            <div class="fot">
+                <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Novi-Mayasari-M.Pd_-768x960.jpg">
+                <h3>Novi Mayasari, M.Pd.</h3>
+                <p>Koordinator Program Studi Pendidikan Matematika</p>
+            </div>
+
+            <div class="fot">
+                <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Day-Ramadhani-Amir-S.TrI_.Kom_.-M.Pd_-768x960.jpg">
+                <h3>Day Ramadhani Amir, S.Tr,I.Kom., M.Pd.</h3>
+                <p>Koordinator Program Studi Pendidikan Teknologi Informasi</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+</body>
+</html>

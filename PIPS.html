@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fakultas Pendidikan Ilmu Pengetahuan Sosial</title>
+    <style>
+        .border{
+           background-color: #031f42; 
+           color: white;
+           border: 1px solid #ffff;
+           padding: 10px 12px;
+           padding-left: 250px;
+           margin: 0px;
+           width: 1658px;
+        }
+        .container{
+        position: relative;
+        width: 1000px;
+        }
+
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family: arial;
+            transform: translate(-50%,-50%);
+            width: 700px;
+            font-size: x-large;
+            color: white;
+        }
+        .text p{
+            color: lightblue;
+        }
+        .btn{
+            background-color: rgb(164, 206, 244);
+            position: absolute;
+            bottom: 20%;
+            left: 30%;
+            transform: translate(-50%);
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu{
+            background-color: #031f42;
+            color: #ffffff;
+            border: 2px solid black;
+            margin: 0px; 
+            padding: 10px;
+            width: 1900px;
+        }
+        .opsi li{
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 20px;
+            padding: 10px 15px;
+        }
+        .search{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .opsi1{
+            display: flex;
+            list-style: none;
+        }
+        .drop{
+            position: relative;
+            cursor: pointer;
+        }
+        .submn{
+            display: none;
+            position: absolute;
+            top: 70%;
+            left: 0%;
+            list-style: none;
+            background:#031f42 ;
+            color: #ffffff;
+            padding: 10px;
+            z-index: 10;
+            width: 350px;
+            margin: 10;
+        }
+        .submn a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .submn a:hover{
+            color: lightgrey;
+        }
+        .drop:hover .submn{
+            display: block;
+        }
+
+        .grub{
+            display: flex;
+            gap: 50px;
+            max-width: 1500px;
+            margin: auto;
+        }
+
+        .kiri{
+            width: 50%;
+            text-align: justify;
+            margin-right: 60px;
+        }
+        .kanan{
+            width: 50%;
+            margin-left: 60px;
+        }
+        .kanan img{
+            width: 100%;
+        }
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .table{
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid black;
+            margin-bottom: 40px;
+            font-family: sans-serif;
+            font-size: large;
+        }
+
+        .top{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .bott{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        
+        .fot img{
+            width: 270px;
+            height: 360px;
+            border-radius:0%;
+            object-fit: cover;
+        }
+
+        .fot{
+            max-width: 400px;
+            text-align: center;
+        }
+        .bg{
+            background-color: rgb(201, 230, 239);
+        }
+
+        .foot{
+            background-color: #031f42;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;  
+        }
+
+    </style>
+</head>
+<body>
+    <div class="border" >
+        <table>
+            <tr>
+                <td>
+                    <img src="phone.png" alt="">
+                    <td>0353 881046</td>
+                    <td>|</td>
+                    <td>
+                        <img src="mail.png">
+                    </td>
+                    <td>     admin@ikippgribojonegoro.ac.id </td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="menu">
+        <ul class="opsi">
+        <ul class="opsi1">
+        <li><a href="WEB.HTML" target="_self">
+            <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/x01-Icon-light.png.pagespeed.ic.1KqtF6CosT.png" class="">
+        </a></li>
+        <li>
+            <input type="search" placeholder="search...">
+        </li>
+        <li class="drop">profil
+            <ul class="submn">
+                <li><a href="profs.html">profil singkat</a></li>
+                <li><a href="sambutan.html">sambutan rektor</a></li>
+                <li><a href="lambang-motto-dll.html">Lambang, Motto Dan Maskot</a></li>
+                <li><a href="pimpinan.html">pimpinan perguruan tinggi</a></li>
+
+            </ul>
+        </li>
+        <li class="drop">Akademik
+            <ul class="submn">
+                <li><A href="seleksi.html">Seleksi Masuk</A></li>
+                <li><a href="beasiswa.html">Beasiswa</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Pedoman-Akademik-2023-2024.pdf">Pedoman Akademik</a></li>
+                <li><a href="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Kalender-Kerja-Tahun-2025.pdf">Kalender Kerja</a></li>
+            </ul>
+        </li>
+
+        <li class="drop"> Fakultas
+            <ul class="submn">
+                <li><a href="pendidikan-bahasa.html">Fakultas Pendidikan Bahsa Dan Seni</a></li>
+                <li><a href="PIPS.html">Fakultas Pendidikan Ilmu Pengetahuan Sosisal</a></li>
+                <li><a href="pmtk&ipa.html">Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</a></li>
+            </ul>
+        </li>
+                  
+        <li><a href="daftar.html">Daftar</a></li>
+
+        <li class="drop">Tautan
+            <ul class="submn">
+                <li><a href="">Lembaga</a></li>
+                <li><a href="">SIM</a></li>
+            </ul>
+        </li>
+
+        <li class="drop">News
+            <ul class="submn">
+                <li><a href="">Berita</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Pengumuman</a></li>
+            </ul>
+        </li>
+          
+        <li>download</li>
+        </ul>
+    </ul>
+    </div>
+
+        <div class="container">
+<img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Banner-WEB-IKIP.png">
+<div class="text">
+<h1>Fakultas Pendidikan Ilmu Pengetahuan Sosial</h1>
+<p>IKIP PGRI Bojonegoro - Fakultas Pendidikan Ilmu Pengetahuan Sosial</p> 
+</div>
+</div>
+
+<div class="bg">
+<div class="grub" >
+    <div class="kiri">
+        <h1>Visi, Misi, Tujuan, & Strategi</h1>
+        <hr>
+    <table class="table">
+        <tr>
+            <td>Visi.
+                <hr>
+                <p>Menjadi fakultas yang berkualitas, berdaya saing, dan menjadi rujukan inovasi dalam bidang Pendidikan Ekonomi dan PPKn dalam mendukung kemajuan pendidikan.</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>Misi
+                <ol>
+                    <li>Menyelenggarakan pendidikan yang inovatif untuk menghasilkan lulusan yang kompeten, profesional, dan berdaya saing global.</li>
+                    <li>Melaksanakan penelitian yang berorientasi pada pemecahan masalah Pendidikan, sosial dan hukum guna memperkaya ilmu pengetahuan sosial dan pendidikan.</li>
+                    <li>Melaksanakan kegiatan pengabdian kepada masyarakat yang memberikan solusi nyata bagi permasalahan masyarakat dan dunia pendidikan.</li>
+                    <li>Menjalin kerja sama dengan institusi pendidikan, pemerintah, dan sektor industri untuk meningkatkan kualitas akademik, riset, dan inovasi.</li>
+                    <li>Melaksanakan tata kelola fakultas yang profesional, transparan, dan berorientasi pada peningkatan kualitas sumber daya manusia serta pengembangan keilmuan berbasis ilmu Pendidikan dan sosial.</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>Tujuan
+                <ol>
+                    <li>Menghasilkan lulusan yang memiliki kompetensi tinggi, kreatif, inovatif, serta berdaya saing dalam bidang Pendidikan Ekonomi dan PPKn.</li>
+                    <li>Meningkatkan jumlah dan kualitas penelitian yang berkontribusi pada pengembangan keilmuan dan pemecahan masalah Pendidikan, sosial, dan hukum di masyarakat.</li>
+                    <li>Mengimplementasikan ilmu pengetahuan sosial dalam berbagai program pengabdian kepada masyarakat yang berdampak nyata bagi kemajuan Pendidikan, sosial dan hukum.</li>
+                    <li>Memperkuat jejaring dan kerja sama strategis dengan berbagai pihak untuk mendukung pencapaian visi fakultas.</li>
+                    <li>Mewujudkan sistem tata kelola fakultas yang efektif dan efisien untuk mendukung mutu akademik dan profesionalisme tenaga pendidik.</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>Strategi
+                <ol>
+                    <li>Pengembangan kurikulum berbasis kebutuhan industri dan menerapkan metode pembelajaran inovatif dan berbasis teknologi digital.</li>
+                    <li>Mendorong penelitian kolaboratif dan interdisipliner di bidang ilmu Pendidikan, sosial dan hukum.</li>
+                    <li>Memperluas cakupan program pengabdian kepada masyarakat dengan melibatkan mahasiswa, dosen, dan mitra eksternal.</li>
+                    <li>Meningkatkan kerja sama dengan perguruan tinggi, sekolah, lembaga penelitian, instansi pemerintahan serta dunia usaha dan industri.</li>
+                    <li>Mengaplikasikan manajemen berbasis mutu dan evaluasi kinerja yang berkelanjutan untuk meningkatkan daya saing fakultas.</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="kanan">
+        <h1>Stuktur Organisasi</h1>
+        <hr>
+        <div class="top">
+            <div class="fot">
+                <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Dr.-Ernia-Duwi-Saputi-M.H-768x960.jpg">
+                <h3>Dr. Cahyo Hasanudin, M.Pd.</h3>
+                <p>Dekan Fakultas Ilmu Pengetahuan Sosial</p>
+            </div>
+        </div>
+
+        <div class="bott">
+            <div class="fot">
+                <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Nur-Rohman-M.Pd_-768x960.jpg">
+                <h3>Joko Setiyono, M.Pd.</h3>
+                <p>Koordinator Program Pendidikan Ekonomi</p>
+            </div>
+
+            <div class="fot">
+                <img src="https://ikippgribojonegoro.ac.id/wp-content/uploads/2025/05/Sely-Ayu-Lestari-M.Pd_-768x960.jpg">
+                <h3>Sely Ayu Lestari, M.Pd.</h3>
+                <p>Koordinator Prodi Pendidikan Pancasila Dan Kewarganegaraan</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+</body>
+<footer class="foot">
+    <p>© Copyright IKIP PGRI Bojonegoro 2025.</p>
+</footer>
+</html>
